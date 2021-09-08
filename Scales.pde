@@ -50,7 +50,7 @@ void drawScaleRandom(int baseUnitPos){
   float baseUnitScale;
   for(int y = 0; y< 26; y++){
     for(int x = 0; x< 13; x++){
-      baseUnitScale = 10 + random(-3,3);
+      baseUnitScale = (float)(7 + Math.random()*6);
       if(y%2 == 0){
         drawScale(x*4*baseUnitPos + 2*baseUnitPos,y*4*baseUnitPos,baseUnitScale);
       } else {
