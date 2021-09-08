@@ -16,7 +16,6 @@ void draw(){
   }
 }
 void mouseClicked(){
-  System.out.println("Hi");
   if(shifted <= 1){
     shifted += 1;
   } else {
